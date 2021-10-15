@@ -7,7 +7,7 @@ wget \
 unzip \
 nano
 
-COPY php-sample-application/ /var/www/html/
+COPY php/ /var/www/html/
 
 COPY index.html /var/www/html/
 
